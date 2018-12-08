@@ -38,9 +38,10 @@ def leer_documentos_originales():
 def limpiar_texto(texto, numeroCiclo):
     cadena = ""
     vector = []
+    texto = re.sub('[^A-Za-z ]+', '', texto).lower()
     word_tokens = word_tokenize(texto)
     for word in word_tokens:
-        if not word in stop_words and word.isalnum():
+        if not word in stop_words:
             vector.append(word)
             big.append(word)
             cadena += word + " "
@@ -51,9 +52,10 @@ def limpiar_texto(texto, numeroCiclo):
 
 def texto_limpio_busqueda(texto):
     cadena = ""
+    texto = re.sub('[^A-Za-z ]+', '', texto).lower()
     word_tokens = word_tokenize(texto)
     for word in word_tokens:
-        if not word in stop_words and word.isalnum():
+        if not word in stop_words:
             cadena += word + " "
     return cadena.lower()
 
@@ -163,7 +165,8 @@ indice_invertido = indice_invertido(diccionario, vectores)
 norm_vectores = normalizar_vectores(vectores, indice_invertido, D)
 
 
-palabras_consulta = raw_input("Ingrese palabras claves")
+palabras_consulta = 'Foothill Group Inc said its Foothill Capital Corp unit arranged the private placement of 23 mln dlrs in senior debt and 27 mln in senior subordinated debt. The senior and senior subordinated debt was purchased by institutional lenders and will bear interest at 9.4 pct and 10.15 pct, respectively, Foothill said.'#raw_input("Ingrese palabras claves")
+print palabras_consulta
 palabras_consulta = texto_limpio_busqueda(palabras_consulta)
 q = Counter(palabras_consulta.split())
 norm_q = normalizar_q(q, indice_invertido, D)

@@ -10,22 +10,24 @@ from collections import Counter
 def leer_documentos_originales():
     documentos_originales = []
     id_doc = 0;
-    for carpeta in os.listdir("BigData/noticias"):
+    for carpeta in os.listdir("BigData/data"):
         print carpeta
-        archivo = open("BigData/noticias/" + carpeta, "r")
+        archivo = open("BigData/data/" + carpeta, "r")
         noticias = archivo.read()
-        noticias = noticias.replace('BODY', 'TEXTO')
+        noticias = noticias.replace('LYRICS', 'TEXTO')
         doc_html = BeautifulSoup(noticias, "lxml")
-        docs = doc_html.find_all('reuters')
+        docs = doc_html.find_all('body')
         for k, doc in enumerate(docs):
-            titulo = doc.title
+            titulo = doc.find('titulo')
             texto = doc.find('texto')
+            artista = doc.find('artist').text
             if titulo is not None:
                 if texto is not None:
                     titulo = titulo.getText()
                     texto = texto.getText()
                     dic = {
                         "_id": id_doc,
+                        "artista": artista,
                         "titulo": titulo,
                         "texto": texto
                     }
@@ -115,8 +117,11 @@ def normalizar_vectores(vectores, indice_invertido, D):
 def normalizar_q(q, indice_invertido, D):
     norm_q = q
     for t, f in norm_q.items():
-        ndocs = len(indice_invertido[t])
-        norm_q[t] = (normalizar(f, D, ndocs))
+        try:
+            ndocs = len(indice_invertido[t])
+            norm_q[t] = (normalizar(f, D, ndocs))
+        except:
+            continue
     return norm_q
 
 
@@ -124,9 +129,12 @@ def normalizar_q(q, indice_invertido, D):
 def obtener_listadocs(norm_q, indice_invertido):
     docs_comparar = []
     for t, f in norm_q.items():
-        for d in indice_invertido[t]:
-            if d not in docs_comparar:
-                docs_comparar.append(d)
+        try:
+            for d in indice_invertido[t]:
+                if d not in docs_comparar:
+                    docs_comparar.append(d)
+        except:
+            continue
     return docs_comparar
 
 
@@ -164,13 +172,12 @@ D = len(diccionario)
 indice_invertido = indice_invertido(diccionario, vectores)
 norm_vectores = normalizar_vectores(vectores, indice_invertido, D)
 
-
-palabras_consulta = 'Foothill Group Inc said its Foothill Capital Corp unit arranged the private placement of 23 mln dlrs in senior debt and 27 mln in senior subordinated debt. The senior and senior subordinated debt was purchased by institutional lenders and will bear interest at 9.4 pct and 10.15 pct, respectively, Foothill said.'#raw_input("Ingrese palabras claves")
-print palabras_consulta
+palabras_consulta = raw_input("Ingrese palabras claves")
 palabras_consulta = texto_limpio_busqueda(palabras_consulta)
 q = Counter(palabras_consulta.split())
 norm_q = normalizar_q(q, indice_invertido, D)
 docs_comparar = obtener_listadocs(norm_q, indice_invertido)
+
 r = {}
 for d in docs_comparar:
     dj = norm_vectores[d]
@@ -182,7 +189,6 @@ nres = len(res)
 print ("Se han encontrado " + str(nres) + " resultados: ")
 for k, v in res:
     print ("Documento " + str(k) + " : " + str(round(v, 2)))
-    print ("Titulo: " + str(documentos_originales[k]["titulo"]))
-    text = documentos_originales[k]["texto"]
-    print ("Texto: " + str(text[1:1000]))
+    print ("Artista: " + str(documentos_originales[k]["artista"]))
+    print ("Titulo: " + str(documentos_originales[k]["titulo"] +"\n"))
 

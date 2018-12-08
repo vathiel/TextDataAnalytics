@@ -187,8 +187,14 @@ res = sorted(r.items(), key=operator.itemgetter(1))
 res.reverse()
 nres = len(res)
 print ("Se han encontrado " + str(nres) + " resultados: ")
+i=0
 for k, v in res:
-    print ("Documento " + str(k) + " : " + str(round(v, 2)))
-    print ("Artista: " + str(documentos_originales[k]["artista"]))
-    print ("Titulo: " + str(documentos_originales[k]["titulo"] +"\n"))
+    if i < 3:
+        print ("Documento " + str(k) + " : " + str(round(v, 2)))
+        print ("Artista: " + str(documentos_originales[k]["artista"]))
+        print ("Titulo: " + str(documentos_originales[k]["titulo"] +"\n"))
+        i += 1
+    else:
+        break
+
 

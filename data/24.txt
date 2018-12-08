@@ -1,4 +1,4 @@
-<TITULO>"Livin' The Dream"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Livin' The Dream"</TITULO><LYRICS>
 
 Where have you been all my life? 
 Where have you come from? 

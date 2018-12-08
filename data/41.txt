@@ -1,4 +1,4 @@
-<TITULO>"Let It Out"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Let It Out"</TITULO><LYRICS>
 
 [Mark:]
 You said you need a groom this evening 

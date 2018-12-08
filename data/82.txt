@@ -1,4 +1,4 @@
-<TITULO>"Three Times A Lady"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Three Times A Lady"</TITULO><LYRICS>
 
 Thanks for the times that you've given me
 The memories are all in my mind.

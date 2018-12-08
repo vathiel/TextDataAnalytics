@@ -1,4 +1,4 @@
-<TITULO>"After All It's Christmas"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"After All It's Christmas"</TITULO><LYRICS>
 
 I feel the joy in this Christmas time
 But something's missing in this heart of mine

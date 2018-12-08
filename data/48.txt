@@ -1,4 +1,4 @@
-<TITULO>"Take You Home"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Take You Home"</TITULO><LYRICS>
 
 [Christian:]
 I'm gonna take this chance to be up all night

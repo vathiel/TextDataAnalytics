@@ -1,4 +1,4 @@
-<TITULO>"One Last Song"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"One Last Song"</TITULO><LYRICS>
 
 Take my hand, touch my face
 Let me feel your embrace

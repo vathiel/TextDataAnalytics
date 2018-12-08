@@ -1,4 +1,4 @@
-<TITULO>"Just 3 Words"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Just 3 Words"</TITULO><LYRICS>
 
 No more drama 
 I'm going under 

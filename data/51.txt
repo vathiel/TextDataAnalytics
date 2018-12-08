@@ -1,4 +1,4 @@
-<TITULO>"Perfect Disaster"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Perfect Disaster"</TITULO><LYRICS>
 
 Some of us were born to break
 The slightest knock is all it takes

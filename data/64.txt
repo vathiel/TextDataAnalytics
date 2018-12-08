@@ -1,4 +1,4 @@
-<TITULO>"Stones"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Stones"</TITULO><LYRICS>
 
 I used to be stardust
 Then came the big bang

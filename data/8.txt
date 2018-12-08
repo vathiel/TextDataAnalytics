@@ -1,4 +1,4 @@
-<TITULO>"Like A Rose"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Like A Rose"</TITULO><LYRICS>
 
 [Ben:]
 And as I look into your eyes

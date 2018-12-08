@@ -1,4 +1,4 @@
-<TITULO>"Good Things, Bad People"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Good Things, Bad People"</TITULO><LYRICS>
 
 I know a girl with a broken smile
 He's been hurting her for quite a while

@@ -1,4 +1,4 @@
-<TITULO>"Armour"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Armour"</TITULO><LYRICS>
 
 I'll love you till kingdom come
 That's the way where I come from

@@ -1,4 +1,4 @@
-<TITULO>"Beatles Medley"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Beatles Medley"</TITULO><LYRICS>
 
 Baby's good to me you know
 She's happy as can be you know

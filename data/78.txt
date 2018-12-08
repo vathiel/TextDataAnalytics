@@ -1,4 +1,4 @@
-<TITULO>"I Got Sunshine"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"I Got Sunshine"</TITULO><LYRICS>
 
 [Intro:] 
 (Sunshine) Feels so good on an easy groove, groove 

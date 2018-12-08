@@ -1,4 +1,4 @@
-<TITULO>"Celebrate Our Love"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Celebrate Our Love"</TITULO><LYRICS>
 
 Believe in your heart
 No matter what the people might say. 

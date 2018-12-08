@@ -1,4 +1,4 @@
-<TITULO>"Miracle"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Miracle"</TITULO><LYRICS>
 
 Na Na Na Na Na Na Na Na Na
 All we need is a miracle baby

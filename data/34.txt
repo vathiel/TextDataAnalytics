@@ -1,4 +1,4 @@
-<TITULO>"Learn To Fly"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Learn To Fly"</TITULO><LYRICS>
 
 When you feel the dream is over
 Feel the world is on your shoulders

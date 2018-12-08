@@ -1,4 +1,4 @@
-<TITULO>"Another Year Gone"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Another Year Gone"</TITULO><LYRICS>
 
 I watched the ice melt away
 I saw the cold wind change

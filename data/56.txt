@@ -1,4 +1,4 @@
-<TITULO>"Christopher Columbus"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Christopher Columbus"</TITULO><LYRICS>
 
 Standing in line, talking ‘bout nothing
 When you walk right by

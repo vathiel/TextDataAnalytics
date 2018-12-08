@@ -1,4 +1,4 @@
-<TITULO>"Tomorrow"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Tomorrow"</TITULO><LYRICS>
 
 You used to say that everyday. 
 We will always be this way. 

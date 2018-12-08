@@ -1,4 +1,4 @@
-<TITULO>"No More"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"No More"</TITULO><LYRICS>
 
 You say we'll work it out, then you say you're having doubts. 
 Tell me walk away, but then you'll go insane. 

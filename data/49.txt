@@ -1,4 +1,4 @@
-<TITULO>"Six Feet Under"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Six Feet Under"</TITULO><LYRICS>
 
 I'm mad, still mad about you
 It's too bad, I'm bad without you

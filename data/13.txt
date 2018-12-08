@@ -1,4 +1,4 @@
-<TITULO>"Take On  Me"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Take On  Me"</TITULO><LYRICS>
 
 We're talking away
 I don't know what

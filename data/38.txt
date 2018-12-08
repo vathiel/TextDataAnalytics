@@ -1,4 +1,4 @@
-<TITULO>"Cherish This Love"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Cherish This Love"</TITULO><LYRICS>
 
 Sorry for making you cry 
 For turning away 

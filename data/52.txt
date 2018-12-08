@@ -1,4 +1,4 @@
-<TITULO>"The Life That Could Have Been"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"The Life That Could Have Been"</TITULO><LYRICS>
 
 I meet someone the other day
 It's good to see her face again

@@ -1,4 +1,4 @@
-<TITULO>"If I Can't Have You"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"If I Can't Have You"</TITULO><LYRICS>
 
 Another picture on the wall
 Another life I used to live

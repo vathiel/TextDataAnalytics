@@ -1,4 +1,4 @@
-<TITULO>"Bad Enough"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Bad Enough"</TITULO><LYRICS>
 
 Baby come back, hear me out
 Is there any way to reach you now

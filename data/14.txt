@@ -1,4 +1,4 @@
-<TITULO>"Same Old Brand New You"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Same Old Brand New You"</TITULO><LYRICS>
 
 I can still remember the time you were there
 When I needed to hold you, feel you

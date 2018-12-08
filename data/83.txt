@@ -1,4 +1,4 @@
-<TITULO>"White Christmas"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"White Christmas"</TITULO><LYRICS>
 
 I'm dreaming of a white Christmas
 Just like the ones I used to know

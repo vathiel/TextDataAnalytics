@@ -1,4 +1,4 @@
-<TITULO>"Do It Again"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Do It Again"</TITULO><LYRICS>
 
 You just found heaven,
 It's safe to say you'll do it again.

@@ -1,4 +1,4 @@
-<TITULO>"Lovesick"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Lovesick"</TITULO><LYRICS>
 
 They said I should leave her but I won't
 Thinking of ways to walk away now but I don't

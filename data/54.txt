@@ -1,4 +1,4 @@
-<TITULO>"Waiting For Daylight"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Waiting For Daylight"</TITULO><LYRICS>
 
 I miss your breathing
 When sleep doesn't come

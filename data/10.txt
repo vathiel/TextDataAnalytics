@@ -1,4 +1,4 @@
-<TITULO>"Still Around"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Still Around"</TITULO><LYRICS>
 
 [VERSE 1]
 

@@ -1,4 +1,4 @@
-<TITULO>"When I'm Missing You"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"When I'm Missing You"</TITULO><LYRICS>
 
 Sunday morning time to say goodbye
 But I'll be home real soon

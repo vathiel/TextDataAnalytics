@@ -1,4 +1,4 @@
-<TITULO>"In Love And I Hate It"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"In Love And I Hate It"</TITULO><LYRICS>
 
 You are like the ocean
 And you're drowning me

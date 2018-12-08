@@ -1,4 +1,4 @@
-<TITULO>"Forever In Love"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Forever In Love"</TITULO><LYRICS>
 
 Love leads to laughter
 Love leads to pain

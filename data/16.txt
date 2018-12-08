@@ -1,4 +1,4 @@
-<TITULO>"One More Try"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"One More Try"</TITULO><LYRICS>
 
 Could be your eyes, could be your smile. 
 Could be the way you freed my mind.

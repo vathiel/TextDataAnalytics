@@ -1,4 +1,4 @@
-<TITULO>"Nos Differences"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Nos Differences"</TITULO><LYRICS>
 
 You said that love was just a state of mind
 A puzzle made of pieces you can't find

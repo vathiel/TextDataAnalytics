@@ -1,4 +1,4 @@
-<TITULO>"Nothing In Common"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Nothing In Common"</TITULO><LYRICS>
 
 Photographs in a card board box
 Remind me I can't turn back the clocks

@@ -1,4 +1,4 @@
-<TITULO>"I Wonder Why"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"I Wonder Why"</TITULO><LYRICS>
 
 I'm tired of fighting, got a fever when you try to get out. (Out, out, out) 
 I've tried but I can't understand what all the fuss is about. 

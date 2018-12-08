@@ -1,4 +1,4 @@
-<TITULO>"High And Dry"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"High And Dry"</TITULO><LYRICS>
 
 [Ben]
 Maybe I don't even exist

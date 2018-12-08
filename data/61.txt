@@ -1,4 +1,4 @@
-<TITULO>"Starlights"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Starlights"</TITULO><LYRICS>
 
 Starlight
 Even though I'm not with you tonight

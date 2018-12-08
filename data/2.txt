@@ -1,4 +1,4 @@
-<TITULO>"Be The First To Believe"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Be The First To Believe"</TITULO><LYRICS>
 
 [INTRO-HOOK]
 

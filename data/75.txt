@@ -1,4 +1,4 @@
-<TITULO>"Funkin' Up"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Funkin' Up"</TITULO><LYRICS>
 
 Put it on to me
 I can hear you baby

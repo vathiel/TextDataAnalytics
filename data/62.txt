@@ -1,4 +1,4 @@
-<TITULO>"Blackout"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Blackout"</TITULO><LYRICS>
 
 Your eyes they tell me something
 I heard a rumor saying you're alone again

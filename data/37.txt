@@ -1,4 +1,4 @@
-<TITULO>"Make It Through The Night"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Make It Through The Night"</TITULO><LYRICS>
 
 She's all alone
 Making her way to a cold, empty home 

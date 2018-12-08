@@ -1,4 +1,4 @@
-<TITULO>"This Ain't What Love Is About"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"This Ain't What Love Is About"</TITULO><LYRICS>
 
 [paul]
 wherever  we go,same old story

@@ -1,4 +1,4 @@
-<TITULO>"Scared"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Scared"</TITULO><LYRICS>
 
 What's your favourite scary movie?
 

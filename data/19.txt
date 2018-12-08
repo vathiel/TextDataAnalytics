@@ -1,4 +1,4 @@
-<TITULO>"Nothing But Trouble"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Nothing But Trouble"</TITULO><LYRICS>
 
 Let me tell you about this girl that once was mine
 Once upon a time she's nothing but trouble. 

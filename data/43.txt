@@ -1,4 +1,4 @@
-<TITULO>"It Happens Everyday"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"It Happens Everyday"</TITULO><LYRICS>
 
 What have I become
 I wish that I could go some place

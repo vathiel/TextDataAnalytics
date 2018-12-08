@@ -1,4 +1,4 @@
-<TITULO>"Trust Me"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Trust Me"</TITULO><LYRICS>
 
 Baby don’t, baby don’t, treat me right
 I better get, better get outta sight

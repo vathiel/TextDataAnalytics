@@ -1,4 +1,4 @@
-<TITULO>"Do I Need A Reason"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Do I Need A Reason"</TITULO><LYRICS>
 
 Today when I saw you 
 I knew it was just like the first time

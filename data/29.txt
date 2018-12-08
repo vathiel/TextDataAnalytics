@@ -1,4 +1,4 @@
-<TITULO>"Make It Good"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Make It Good"</TITULO><LYRICS>
 
 When you're weary, When you're down and out
 Lay your hands on me [x2]

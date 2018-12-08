@@ -1,4 +1,4 @@
-<TITULO>"One In Love"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"One In Love"</TITULO><LYRICS>
 
 Have you seen the sunset, fade beneath a rain cloud? 
 Have you ever chased your dreams away?

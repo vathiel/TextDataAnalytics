@@ -1,4 +1,4 @@
-<TITULO>"Out There"</TITULO><LYRICS>
+<ARTIST>a1</ARTIST><TITULO>"Out There"</TITULO><LYRICS>
 
 Come around to mine won't you
 Wanna spend some time with you

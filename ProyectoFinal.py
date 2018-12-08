@@ -40,9 +40,10 @@ def leer_documentos_originales():
 def limpiar_texto(texto, numeroCiclo):
     cadena = ""
     vector = []
+    texto = re.sub('[^A-Za-z ]+', '', texto).lower()
     word_tokens = word_tokenize(texto)
     for word in word_tokens:
-        if not word in stop_words and word.isalnum():
+        if not word in stop_words:
             vector.append(word)
             big.append(word)
             cadena += word + " "
@@ -53,9 +54,10 @@ def limpiar_texto(texto, numeroCiclo):
 
 def texto_limpio_busqueda(texto):
     cadena = ""
+    texto = re.sub('[^A-Za-z ]+', '', texto).lower()
     word_tokens = word_tokenize(texto)
     for word in word_tokens:
-        if not word in stop_words and word.isalnum():
+        if not word in stop_words:
             cadena += word + " "
     return cadena.lower()
 
@@ -115,8 +117,11 @@ def normalizar_vectores(vectores, indice_invertido, D):
 def normalizar_q(q, indice_invertido, D):
     norm_q = q
     for t, f in norm_q.items():
-        ndocs = len(indice_invertido[t])
-        norm_q[t] = (normalizar(f, D, ndocs))
+        try:
+            ndocs = len(indice_invertido[t])
+            norm_q[t] = (normalizar(f, D, ndocs))
+        except:
+            continue
     return norm_q
 
 
@@ -124,9 +129,12 @@ def normalizar_q(q, indice_invertido, D):
 def obtener_listadocs(norm_q, indice_invertido):
     docs_comparar = []
     for t, f in norm_q.items():
-        for d in indice_invertido[t]:
-            if d not in docs_comparar:
-                docs_comparar.append(d)
+        try:
+            for d in indice_invertido[t]:
+                if d not in docs_comparar:
+                    docs_comparar.append(d)
+        except:
+            continue
     return docs_comparar
 
 
@@ -169,6 +177,7 @@ palabras_consulta = texto_limpio_busqueda(palabras_consulta)
 q = Counter(palabras_consulta.split())
 norm_q = normalizar_q(q, indice_invertido, D)
 docs_comparar = obtener_listadocs(norm_q, indice_invertido)
+
 r = {}
 for d in docs_comparar:
     dj = norm_vectores[d]

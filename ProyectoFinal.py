@@ -20,12 +20,14 @@ def leer_documentos_originales():
         for k, doc in enumerate(docs):
             titulo = doc.find('titulo')
             texto = doc.find('texto')
+            artista = doc.find('artist').text
             if titulo is not None:
                 if texto is not None:
                     titulo = titulo.getText()
                     texto = texto.getText()
                     dic = {
                         "_id": id_doc,
+                        "artista": artista,
                         "titulo": titulo,
                         "texto": texto
                     }
@@ -178,5 +180,6 @@ nres = len(res)
 print ("Se han encontrado " + str(nres) + " resultados: ")
 for k, v in res:
     print ("Documento " + str(k) + " : " + str(round(v, 2)))
+    print ("Artista: " + str(documentos_originales[k]["artista"]))
     print ("Titulo: " + str(documentos_originales[k]["titulo"] +"\n"))
 

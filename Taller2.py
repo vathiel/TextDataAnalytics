@@ -5,6 +5,7 @@ from nltk.tokenize import word_tokenize
 import os
 import math
 from collections import Counter
+
 # Author: Olivier Grisel <olivier.grisel@ensta.org>
 #         Lars Buitinck
 #         Chyi-Kwei Yau <chyikwei.yau@gmail.com>
@@ -41,6 +42,7 @@ def leer_documentos_originales():
                     id_doc += 1
         archivo.close()
     return documentos_originales
+
 
 
 def limpiar_texto(texto, numeroCiclo):
@@ -203,6 +205,26 @@ def buscar_noticia(palabras):
         else:
             break
 
+def limpiar_texto(texto):
+    cadena = ""
+    word_tokens = word_tokenize(texto)
+    for word in word_tokens:
+        if not word in stop_words and word.isalnum():
+            cadena += word + " "
+    textoImport.append(cadena)
+
+
+# MAIN
+
+stop_words = set(stopwords.words('english'))
+textoImport =[]
+
+n_samples = 2000
+n_features = 1000
+n_components = 100
+n_top_words = 20
+
+
 
 def print_top_words(model, feature_names, n_top_words):
     for topic_idx, topic in enumerate(model.components_):
@@ -219,6 +241,7 @@ def print_top_words(model, feature_names, n_top_words):
 # to filter out useless terms early on: the posts are stripped of headers,
 # footers and quoted replies, and common English words, words occurring in
 # only one document or in at least 95% of the documents are removed.
+
 
 # Use tf-idf features for NMF.
 print("Extracting tf-idf features for NMF...")
@@ -255,3 +278,4 @@ print("done in %0.3fs." % (time() - t0))
 print("\nTopics in NMF model (generalized Kullback-Leibler divergence):")
 tfidf_feature_names = tfidf_vectorizer.get_feature_names()
 print_top_words(nmf, tfidf_feature_names, n_top_words)
+
